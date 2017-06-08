@@ -1,0 +1,53 @@
+1 - Jogar
+2 - Comparar Algortimos
+Entrada = 1       
+
+Digite 4 Valores de 1 a 50
+Digite 4 números: 1 3 43 23
+
+O Vetor Foi Ordenado Pelo SelectSort
+Acertou o Numero 3, Parabéns
+Acertou o Numero 23, Parabéns
+O Total de Acertos foi de: 2
+Pos: 	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+Num: 	2	3	3	4	12	14	17	20	21	23	31	33	33	35	36	40	41	41	46	49
+
+1 - Jogar
+2 - Comparar Algortimos
+Entrada = 1
+
+Digite 4 Valores de 1 a 50
+Digite 4 números: 7 11 25 40
+
+O Vetor Foi Ordenado Pelo QuickSort Recursivo
+Acertou o Numero 11, Parabéns
+O Total de Acertos foi de: 1
+Pos: 	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+Num: 	10	11	13	13	13	15	15	17	18	20	20	26	26	30	31	31	46	47	47	49
+
+1 - Jogar
+2 - Comparar Algortimos
+Entrada = 1
+
+Digite 4 Valores de 1 a 50
+Digite 4 números: 10 23 35 38
+
+O Vetor Foi Ordenado Pelo QuickSort Iterativo
+O Total de Acertos foi de: 0
+Pos: 	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+Num: 	6	6	7	7	8	17	18	18	20	25	27	33	42	42	42	42	48	48	50	50
+
+1 - Jogar
+2 - Comparar Algortimos
+Entrada = 1
+
+Digite 4 Valores de 1 a 50
+Digite 4 números: 1 32 2 4 
+
+O Vetor Foi Ordenado Pelo BubbleSort
+Acertou o Numero 1, Parabéns
+Acertou o Numero 2, Parabéns
+Acertou o Numero 4, Parabéns
+O Total de Acertos foi de: 3
+Pos: 	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+Num: 	1	1	2	4	9	11	11	12	13	25	31	38	40	41	44	45	47	49	49	49

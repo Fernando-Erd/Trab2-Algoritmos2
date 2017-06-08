@@ -1,0 +1,31 @@
+<html>
+  <head>
+	<title> Relatório Trabalho Prático 2 - Algoritmos II</title>
+	
+  </head>
+	<h1><center>Relatório</h2>
+  <body>
+
+	<h3>Detalhamento do Arquivo Estruturas.h</h3>
+	<p>Contém os <i>includes</i> e <i>defines</i>.</p>
+
+	<h3>Detalhamento do Arquivo Funções.h</h3>
+	<p>Contém os cabeçalhos das funções. </p>
+
+	<h3>Detalhamento do Arquivo Vetor.c</h3>
+	<p>O arquivo contém 3 funções LerDados (Lê os 4 números que são digitados pelo usuario que são armazenados em um vetor que se chama Escolhidos), GeraVetor (Gera um Vetor aleatorio) e ImprimeVetor (Imprime o Vetor). </p>
+	
+	<h3>Detalhamento do Arquivo Pesquisa.c</h3>
+	<p> Contém as funções PesquisaBinaria, PesquisaSequencial e VerificaNúmero.<p>
+	<p>Vai buscar os números que o usuário digitou no vetor, os dois primeiros números vão ser por PesquisaSequencial e os dois últimos por PesquisaBinaria, as pesquisas irão retornar uma posição, se ela for igual a -1, quer dizer que não encontrou o elemento (o <i>return -1</i> foi usado porque o elemento pode estar na primeira posição do vetor que é igual a zero, por isso o tradicional <i>return 0</i> não pode ser usado), também printa na tela se acertou o determinado número.</p>
+
+	<h3>Detalhamento do Arquivo Ordenação.c</h3>
+	<p>Contém os Algoritmos de Ordenação, BubbleSort, SelectSort, QuickSort Recursivo e Iterativo.</p> 
+
+	<h3>Detalhamento do Arquivo MedirTempo.c</h3>
+	<p> Aqui temos as funções que calcula o tempo de maquina dos algoritmos de ordenação através da função <i>gettimeofday</i> que recebe um ponteiro para uma estrutura struct timeval e preenche seus campos com os dados do tempo decorrido desde o último boot. A estrutura struct timeval é uma estrutura que contém dois campos: tv_sec e tv_usec. O primeiro indica o número de segundos decorridos desde o último boot, e o segundo o número de microsegundos decorridos desde o último segundo.</p>
+
+	<h3>Detalhamento do Arquivo Main.c</h3>
+	<p> lê uma variavél com o nome de comando que através de um switch vai ver se quer jogar, ou comparar os algoritmos. No caso da opçao jogar for escolhida, lê os dados do usuário, gera vetor, sorteia um algoritmo de ordenação, oderna o vetor, chama a função VerificaNumero que vai realizar a pesquisa e por fim printa o vetor sorteado (ordenado). Caso a opção de comparar foi a escolhida irá chamar as funções que mede o tempo de cada algortimo. <p/>
+  </body>
+</html>

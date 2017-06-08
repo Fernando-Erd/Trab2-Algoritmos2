@@ -1,0 +1,7 @@
+O programa da Mega Quadra deve inicialmente receber como parâmetro de entrada o tamanho de um vetor de inteiros, que deve ser preenchido com números aleatórios de 1 até um valor máximo também fornecido como parâmetro. ATENÇÃO: deve ser possível imprimir na tela este vetor, de forma limpa e compacta.
+
+Em seguida este programa permite que o usuário entre com quatro números inteiros (na faixa permitida -- faça a consistência dos dados!). Informe ao usuário se ganhou o jogo, ou seja os 4 dos números fornecidos estão no vetor; informe também se 3, 2, 1 ou nenhum número está no vetor. Permita ao jogador jogar quantas vezes quiser. Se preferir faça a interface simples, na própria linha de comando.
+
+Para cada número informado pelo jogador, utilize tanto a Pesquisa Sequencial como a Pesquisa Binária. Você deve salvar o vetor não ordenado e ordená-lo usando um de 4 algoritmos diferentes: SelectSort, BubbleSort, QuickSort recursivo e QuickSort iterativo. Para o QuickSort utilize como pivô o elemento que corresponde à mediana do primeiro, meio e último elementos do vetor.
+
+Uma opção do programa deve permitir contar o tempo de execução de 10.000 (dez mil) ordenações do vetor para cada algoritmo. Assim, para cada um dos quatro algoritmos de ordenação gere 10.000 vetores de números aleatórios e faça a ordenação dez mil vezes. Portanto serão gerados e ordenados 40.000 vetores nesta opção. Meça e mostre o tempo de máquina necessário para cada algoritmo ordenar seus dez mil vetores. 

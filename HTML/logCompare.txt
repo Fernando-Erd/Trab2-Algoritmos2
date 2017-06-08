@@ -1,0 +1,51 @@
+//ATENÇÃO: NO LOG DAS COMPARAÇÕES FOI ALTERADO O TAMANHO DO VETOR NO ARQUIVO ESTRUTURAS.H (#DEFINE TAM) PARA QUE SE POSSA FAZER UMA ANALISE MAIS AMPLA DE COMO O TEMPO DA ORDENAÇÃO CRESCE DE ACORDO COM O TAMANHO DO VETOR
+
+//No menu principal sempre foi escolhida a opção 2 
+1 - Jogar
+2 - Comparar Algortimos
+
+//Definindo #define TAM 10 - Tamanho do Vetor será 10
+O SelectSort Demorou 28 Centesimos
+O BubbleSort Demorou 31 Centesimos
+O QuickSort Recursivo Demorou 28 Centesimos
+O QuickSort Iterativo Demorou 27 Centesimos
+
+
+//Definindo #define TAM 25 - Tamanho do Vetor será 25
+O SelectSort Demorou 51 Centesimos
+O BubbleSort Demorou 73 Centesimos
+O QuickSort Recursivo Demorou 42 Centesimos
+O QuickSort Iterativo Demorou 41 Centesimos
+
+
+//Definindo #define TAM 50 - Tamanho do Vetor será 50
+O SelectSort Demorou 109 Centesimos
+O BubbleSort Demorou 249 Centesimos
+O QuickSort Recursivo Demorou 79 Centesimos
+O QuickSort Iterativo Demorou 77 Centesimos
+
+//Definindo #define TAM 75 - Tamanho do Vetor será 75
+O SelectSort Demorou 192 Centesimos
+O BubbleSort Demorou 484 Centesimos
+O QuickSort Recursivo Demorou 117 Centesimos
+O QuickSort Iterativo Demorou 107 Centesimos
+
+//Definindo #define TAM 100 - Tamanho do Vetor será 100
+O SelectSort Demorou 296 Centesimos
+O BubbleSort Demorou 824 Centesimos
+O QuickSort Recursivo Demorou 154 Centesimos
+O QuickSort Iterativo Demorou 139 Centesimos
+
+//Definindo #define TAM 500 - Tamanho do Vetor será 500
+O SelectSort Demorou 5370 Centesimos
+O BubbleSort Demorou 23400 Centesimos
+O QuickSort Recursivo Demorou 853 Centesimos
+O QuickSort Iterativo Demorou 822 Centesimos
+
+//Definindo #define TAM 1000 - Tamanho do Vetor será 1000
+O SelectSort Demorou 20553 Centesimos //20 segundos
+O BubbleSort Demorou 93153 Centesimos //93 segundos
+O QuickSort Recursivo Demorou 1830 Centesimos 
+O QuickSort Iterativo Demorou 1782 Centesimos
+
+
